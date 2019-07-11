@@ -1,0 +1,225 @@
+p{
+    font-size:20px;
+  }
+  p a{
+    font-size:25px;
+    color:#ffffff;
+    
+  }
+  
+  
+  .navbar {
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 20, .7);
+    background-image: none;
+  }
+  /* ---------- prvi --------------- */
+  
+  #prvi {
+    background: url("https://www.freegreatpicture.com/files/photo99/49354-beautiful-hd-wallpaper.jpg")50% 0 repeat fixed;
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #prvi button {
+    background-color: rgba(0, 0, 20, .25);
+    color: #ffffff;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  #prvi button:hover {
+    background-color: #ffffff;
+    color: rgba(0, 0, 20, .90);
+  }
+  /*SEKCIJA PRVA*/
+  
+  #prvi h1 {
+    color: #ffffff;
+    margin-top: 25%;
+    letter-spacing: 8px;
+    font-variant: small-caps;
+    padding-top: 10px;
+    font-size: 45px;
+    font-family: 'Ribeye Marrow', cursive;
+  }
+  
+  #prvi h4 {
+    color: #ffffff;
+    letter-spacing: 8px;
+    font-variant: small-caps;
+    padding: 20px 10px;
+  }
+  /*--------omeni----------*/
+  
+  #omeni {
+    color:white;
+    background: url('https://wallpaperplay.com/walls/full/6/e/a/162823.jpg')50% 0 repeat fixed;
+    min-height: 1000px;
+    background-position: center;
+    background-size: cover;
+    padding: 14% 15px;
+  }
+  /*SEKCiJA O MENI*/
+  
+  #omeni p {
+    text-align: justify;
+  }
+  
+  #omeni img {
+    border-radius: 50%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  .mwp-omeni-back {
+    color: #ffffff;
+    padding-left: 10%;
+  }
+  /*---------portfolijo-----------*/
+  .slika{
+      width:400px;
+      height:400px;
+  }
+  /*SEKCIJA PORTFOLIO*/
+
+  #portfolijo {
+    color: #ffffff;
+    padding: 15% 5px;
+    background: url("http://digitalimagemakerworld.com/images/hd-beautiful-wallpapers/37064049-hd-beautiful-wallpapers.jpg")50% 0 repeat fixed;
+    min-height: 1000px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #portfolijo .img{
+    margin-bottom:20px;
+    width:100%;
+  }
+  /*OVERLAY*/
+  
+  .overlay {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  /*OVERLAY ENHORN*/
+  
+  a.close-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    background-color: #000;
+    cursor: pointer;
+  }
+  
+  a.close-overlay.hidden {
+    display: none;
+  }
+  /*EKSPENDOVANJE*/
+  
+  a.expand {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    border: solid 5px #fff;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  /*OVERLAY*/
+  
+  #effect-1 .overlay {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+  }
+  
+  #effect-1 .overlay a.expand {
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin: 0 auto;
+  }
+  
+  #effect-1 .img.hover .overlay {
+    height: 100%;
+  }
+  /*OVERLAY CSS*/
+  #portfolijo img{
+    width:100%;
+  }
+  div.opis {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    left: 0p;
+    bottom: 0;
+    z-index: 20;
+  }
+  
+  .opis_content {
+  
+    text-align: center;
+  }
+  /*------kontakt------*/
+  
+  #kontakt {
+    padding-top: 10%;
+    background: url('https://i0.wp.com/sociallover.net/wp-content/uploads/2017/05/beautiful.png')50% 0 repeat fixed;
+    min-height: 1000px;
+    background-size:cover;
+    background-position: center;
+  }
+  
+  
+  
+ 
+  
+  /*MEDIJA KVERI!!*/
+  @media (max-width: 950px) {
+     #kontakt h3{
+      font-size:21px; 
+    }
+   
+  }
+  
+  
+  @media (max-width: 650px) {
+     
+    #kontakt h3{
+      font-size:17px; 
+    }
+   /*MEDIJA KVERI!!*/
+    
+  }
+
+
+/*MEDIJA KVERI!*/
+
+
